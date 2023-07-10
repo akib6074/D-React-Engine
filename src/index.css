@@ -1,0 +1,122 @@
+body {
+  overflow: hidden;
+}
+
+
+.mainwrapper {
+  position: relative;
+
+}
+
+.upper-landing-page-image {
+  background-image: url("./assets/bg1.png");
+  background-color: #091C75;
+
+
+}
+
+.loginlandingpage {
+  background-color: #000E50;
+  height: 100vh;
+  clip-path: circle(68% at 60% 130%);
+
+}
+
+.login-form {
+  position: absolute;
+  top: 65%;
+  width: 100%;
+  /* left: 30%; */
+}
+
+.signInInput {
+  width: 100%;
+}
+
+.login-form-intro {
+  position: absolute;
+  top: 32%;
+  width: 100%;
+
+}
+
+
+.loginBtn {
+  background-color: #5FCAFF;
+  color: #001887;
+  width: 9rem;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  border-radius: 12px;
+  /* border-color: #5FCAFF; */
+
+}
+
+.olive-btn {
+  background-color: #62A2AB;
+  color: #FFFFFF;
+  border-radius: 21px;
+  font-weight: 600;
+  font-size: 15.6596px;
+  line-height: 19px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  width: 101px;
+  height: 46.4px;
+  border: 2px solid #62A2AB;
+}
+
+.ant-collapse-content{
+  background-color: #F5F5F5 !important;
+} 
+
+.ant-collapse{
+  border: 1px solid #F5F5F5 !important;
+  background-color: #F5F5F5 !important;
+}
+.ant-collapse-item{
+  border-bottom: 1px solid #F5F5F5 !important;
+
+}
+
+@media (max-width: 1024px) {
+
+  /* Styles for medium devices */
+  .loginlandingpage {
+    clip-path: circle(68% at 60% 116%)
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+  /* Styles for medium devices */
+  .loginlandingpage {
+    clip-path: circle(68% at 60% 130%);
+  }
+
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+
+  /* Styles for small devices */
+  .login-form-intro {
+    position: absolute;
+    top: 20%;
+    width: 100%;
+
+  }
+}
+
+@media (max-width: 576px) {
+
+  /* Styles for extra small devices */
+  .login-form-intro {
+    position: absolute;
+    top: 10%;
+    width: 100%;
+
+  }
+}
